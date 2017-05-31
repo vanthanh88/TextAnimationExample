@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0850903C8EBC572C7743FC1B1E872F9C /* Pods-TextAnimationExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF5BC860D323D32504D409520346E45 /* Pods-TextAnimationExample-dummy.m */; };
+		1D3410CE2EB34810733EC66568F9633A /* Pods-TextAnimationExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCA88F4D7469E3EC09AE8BC3C2D84FE /* Pods-TextAnimationExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A4AA8CBC1E8366E7CF92B312880229 /* SVGPath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE7B9BA627ADAC9062790A40EDD831 /* SVGPath-dummy.m */; };
+		2FF9784C2227B4BE8CE17D9A9515669A /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E3EE7DE97D4B01060A46EC42B0D46 /* SVGPath.swift */; };
+		544DDE49D53F52052915E436EB2EB5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		9C902035B72426E9B3F48BF8D4B5E44E /* SVGPath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1149284AC6648C5E43E9636B1250518C /* SVGPath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65F17419D2BFF3A45313DC57E8DF940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		DEAEFBAB6DECAA4B8433060D59606E59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */; };
+		F1375B1FBD77C55682A703AF04B20A64 /* SVGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F373B3054AF7268786554C35F3866B /* SVGPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F829BAFC752EAB810AACB279DB027F39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F496E95DB4A7420BFA1D18E74EB1F0C;
+			remoteInfo = SVGPath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1149284AC6648C5E43E9636B1250518C /* SVGPath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVGPath-umbrella.h"; sourceTree = "<group>"; };
+		12AE7B9BA627ADAC9062790A40EDD831 /* SVGPath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVGPath-dummy.m"; sourceTree = "<group>"; };
+		3F4E3EE7DE97D4B01060A46EC42B0D46 /* SVGPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGPath.swift; path = SVGPath/SVGPath.swift; sourceTree = "<group>"; };
+		52F373B3054AF7268786554C35F3866B /* SVGPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPath.h; path = SVGPath/SVGPath.h; sourceTree = "<group>"; };
+		5338ABD258C925FD86EB39B981AA9601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D29A754273252465F04202E07A2561 /* SVGPath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVGPath.modulemap; sourceTree = "<group>"; };
+		5BCA88F4D7469E3EC09AE8BC3C2D84FE /* Pods-TextAnimationExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextAnimationExample-umbrella.h"; sourceTree = "<group>"; };
+		6022F4EDBA750732A57D077F0D3CF087 /* SVGPath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVGPath.xcconfig; sourceTree = "<group>"; };
+		67D0E88AAA8300B7F3DAC74AD88A1EBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721F35C0635AB68B34D5766F7EC066C4 /* Pods-TextAnimationExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextAnimationExample-resources.sh"; sourceTree = "<group>"; };
+		7C722B75FDF94A36B42E8AD0412DD5F1 /* Pods_TextAnimationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TextAnimationExample.framework; path = "Pods-TextAnimationExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE6A2C605EA8748E54F9ACB8D6D22E /* Pods-TextAnimationExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextAnimationExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C6B4A261FED6CF9025F1D8538FA654E /* SVGPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVGPath.framework; path = SVGPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95FB1F423F217367F76F0B67E9AD7481 /* SVGPath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVGPath-prefix.pch"; sourceTree = "<group>"; };
+		A5E140ED3C2AEC95A38996C7A1EE9490 /* Pods-TextAnimationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextAnimationExample.release.xcconfig"; sourceTree = "<group>"; };
+		A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AFF5BC860D323D32504D409520346E45 /* Pods-TextAnimationExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextAnimationExample-dummy.m"; sourceTree = "<group>"; };
+		B53321B96AE3F97CB320E17313C01212 /* Pods-TextAnimationExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextAnimationExample-frameworks.sh"; sourceTree = "<group>"; };
+		B7C127A30AD278D72D233158DA26E2AA /* Pods-TextAnimationExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TextAnimationExample.modulemap"; sourceTree = "<group>"; };
+		CB7469D98A9E9FA45C03266678B8E3BF /* Pods-TextAnimationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextAnimationExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E9B468A286490AB9BEA4931D37B248AF /* Pods-TextAnimationExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextAnimationExample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D69DCBA2E8EF25FCB0C0698347FF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAEFBAB6DECAA4B8433060D59606E59 /* CoreGraphics.framework in Frameworks */,
+				544DDE49D53F52052915E436EB2EB5EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DA4DA315F6A7508BAB8C547AF97B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65F17419D2BFF3A45313DC57E8DF940 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F064D04E379CE8E07B6BDB97C593316 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */,
+				A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1B067434546A33DD91DD7DB21D260E1D /* Pods-TextAnimationExample */ = {
+			isa = PBXGroup;
+			children = (
+				67D0E88AAA8300B7F3DAC74AD88A1EBD /* Info.plist */,
+				B7C127A30AD278D72D233158DA26E2AA /* Pods-TextAnimationExample.modulemap */,
+				84DE6A2C605EA8748E54F9ACB8D6D22E /* Pods-TextAnimationExample-acknowledgements.markdown */,
+				E9B468A286490AB9BEA4931D37B248AF /* Pods-TextAnimationExample-acknowledgements.plist */,
+				AFF5BC860D323D32504D409520346E45 /* Pods-TextAnimationExample-dummy.m */,
+				B53321B96AE3F97CB320E17313C01212 /* Pods-TextAnimationExample-frameworks.sh */,
+				721F35C0635AB68B34D5766F7EC066C4 /* Pods-TextAnimationExample-resources.sh */,
+				5BCA88F4D7469E3EC09AE8BC3C2D84FE /* Pods-TextAnimationExample-umbrella.h */,
+				CB7469D98A9E9FA45C03266678B8E3BF /* Pods-TextAnimationExample.debug.xcconfig */,
+				A5E140ED3C2AEC95A38996C7A1EE9490 /* Pods-TextAnimationExample.release.xcconfig */,
+			);
+			name = "Pods-TextAnimationExample";
+			path = "Target Support Files/Pods-TextAnimationExample";
+			sourceTree = "<group>";
+		};
+		1C0FBF36A6AC7DBECD76D0806BE29321 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B067434546A33DD91DD7DB21D260E1D /* Pods-TextAnimationExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		223F2ABDEF220ED921202BA9F75DCB1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5338ABD258C925FD86EB39B981AA9601 /* Info.plist */,
+				59D29A754273252465F04202E07A2561 /* SVGPath.modulemap */,
+				6022F4EDBA750732A57D077F0D3CF087 /* SVGPath.xcconfig */,
+				12AE7B9BA627ADAC9062790A40EDD831 /* SVGPath-dummy.m */,
+				95FB1F423F217367F76F0B67E9AD7481 /* SVGPath-prefix.pch */,
+				1149284AC6648C5E43E9636B1250518C /* SVGPath-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVGPath";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F064D04E379CE8E07B6BDB97C593316 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		586F9B7515F89B6D2410B51E59BEAE3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB3558C246E03B3E093FDAD165CEE665 /* SVGPath */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				586F9B7515F89B6D2410B51E59BEAE3B /* Pods */,
+				DC1399706CE9DBEE9AFC32471BAD5C17 /* Products */,
+				1C0FBF36A6AC7DBECD76D0806BE29321 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3558C246E03B3E093FDAD165CEE665 /* SVGPath */ = {
+			isa = PBXGroup;
+			children = (
+				52F373B3054AF7268786554C35F3866B /* SVGPath.h */,
+				3F4E3EE7DE97D4B01060A46EC42B0D46 /* SVGPath.swift */,
+				223F2ABDEF220ED921202BA9F75DCB1B /* Support Files */,
+			);
+			name = SVGPath;
+			path = SVGPath;
+			sourceTree = "<group>";
+		};
+		DC1399706CE9DBEE9AFC32471BAD5C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C722B75FDF94A36B42E8AD0412DD5F1 /* Pods_TextAnimationExample.framework */,
+				8C6B4A261FED6CF9025F1D8538FA654E /* SVGPath.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B6C092A6429DC37A81F42838B694F98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C902035B72426E9B3F48BF8D4B5E44E /* SVGPath-umbrella.h in Headers */,
+				F1375B1FBD77C55682A703AF04B20A64 /* SVGPath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA850D50C7F669B898E7C43A6AD5A45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3410CE2EB34810733EC66568F9633A /* Pods-TextAnimationExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BD4D3836FD369B8A3E62D4943586FF8 /* Pods-TextAnimationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE4B8F2876099277C1EFF5C5EC83FEC /* Build configuration list for PBXNativeTarget "Pods-TextAnimationExample" */;
+			buildPhases = (
+				B79DB0E8505A4EA29E08B0CEEBEA8C1C /* Sources */,
+				E4DA4DA315F6A7508BAB8C547AF97B8F /* Frameworks */,
+				5AA850D50C7F669B898E7C43A6AD5A45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26D4F8E63EAC8045F1990A3D4A984D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TextAnimationExample";
+			productName = "Pods-TextAnimationExample";
+			productReference = 7C722B75FDF94A36B42E8AD0412DD5F1 /* Pods_TextAnimationExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F496E95DB4A7420BFA1D18E74EB1F0C /* SVGPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7CA4DD75A85936EE8A4D4066480455 /* Build configuration list for PBXNativeTarget "SVGPath" */;
+			buildPhases = (
+				F9A17A488FA76EA211A78B98726FD1B3 /* Sources */,
+				05D69DCBA2E8EF25FCB0C0698347FF9D /* Frameworks */,
+				2B6C092A6429DC37A81F42838B694F98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGPath;
+			productName = SVGPath;
+			productReference = 8C6B4A261FED6CF9025F1D8538FA654E /* SVGPath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC1399706CE9DBEE9AFC32471BAD5C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD4D3836FD369B8A3E62D4943586FF8 /* Pods-TextAnimationExample */,
+				5F496E95DB4A7420BFA1D18E74EB1F0C /* SVGPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79DB0E8505A4EA29E08B0CEEBEA8C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0850903C8EBC572C7743FC1B1E872F9C /* Pods-TextAnimationExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A17A488FA76EA211A78B98726FD1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A4AA8CBC1E8366E7CF92B312880229 /* SVGPath-dummy.m in Sources */,
+				2FF9784C2227B4BE8CE17D9A9515669A /* SVGPath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B26D4F8E63EAC8045F1990A3D4A984D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVGPath;
+			target = 5F496E95DB4A7420BFA1D18E74EB1F0C /* SVGPath */;
+			targetProxy = F829BAFC752EAB810AACB279DB027F39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7539603073C72F8AFF7BF7716AAB0B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E140ED3C2AEC95A38996C7A1EE9490 /* Pods-TextAnimationExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TextAnimationExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextAnimationExample/Pods-TextAnimationExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TextAnimationExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91DB7F35C1AAE586447F9E94871CC05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6022F4EDBA750732A57D077F0D3CF087 /* SVGPath.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVGPath/SVGPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVGPath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVGPath/SVGPath.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVGPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ADC35C1D2FD5AAB574098E3AD6F824D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7469D98A9E9FA45C03266678B8E3BF /* Pods-TextAnimationExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TextAnimationExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextAnimationExample/Pods-TextAnimationExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TextAnimationExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C69A811CEC312312BA6C1224962C4F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6022F4EDBA750732A57D077F0D3CF087 /* SVGPath.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVGPath/SVGPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVGPath/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVGPath/SVGPath.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVGPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7CA4DD75A85936EE8A4D4066480455 /* Build configuration list for PBXNativeTarget "SVGPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69A811CEC312312BA6C1224962C4F3D /* Debug */,
+				91DB7F35C1AAE586447F9E94871CC05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE4B8F2876099277C1EFF5C5EC83FEC /* Build configuration list for PBXNativeTarget "Pods-TextAnimationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADC35C1D2FD5AAB574098E3AD6F824D /* Debug */,
+				7539603073C72F8AFF7BF7716AAB0B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

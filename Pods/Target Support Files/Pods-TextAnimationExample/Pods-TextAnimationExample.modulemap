@@ -1,0 +1,6 @@
+framework module Pods_TextAnimationExample {
+  umbrella header "Pods-TextAnimationExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
